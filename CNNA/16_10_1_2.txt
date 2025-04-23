@@ -1,0 +1,227 @@
+W0331 23:02:30.875000 3291 torch/distributed/run.py:792] 
+W0331 23:02:30.875000 3291 torch/distributed/run.py:792] *****************************************
+W0331 23:02:30.875000 3291 torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0331 23:02:30.875000 3291 torch/distributed/run.py:792] *****************************************
+No checkpoint found. Starting training from scratch
+No checkpoint found. Starting training from scratch
+Epoch [1/10], Step [512/1563], Loss: 2.2925
+Epoch [1/10], Step [512/1563], Loss: 2.3026
+Epoch [1/10], Step [1024/1563], Loss: 2.3198
+Epoch [1/10], Step [1024/1563], Loss: 2.3309
+Epoch [1/10], Step [1536/1563], Loss: 2.3077
+Epoch [1/10], Step [1536/1563], Loss: 2.3144
+Epoch 1 completed in 23.52 seconds
+Train Accuracy: 9.57%, Test Accuracy: 9.99%
+Total training time so far: 23.52 seconds
+New best accuracy: 9.99%
+Epoch 1 completed in 23.76 seconds
+Train Accuracy: 10.00%, Test Accuracy: 9.80%
+Total training time so far: 23.76 seconds
+Epoch [2/10], Step [512/1563], Loss: 2.2931
+Epoch [2/10], Step [512/1563], Loss: 2.2952
+Epoch [2/10], Step [1024/1563], Loss: 2.3131
+Epoch [2/10], Step [1024/1563], Loss: 2.3150
+Epoch [2/10], Step [1536/1563], Loss: 2.3040
+Epoch [2/10], Step [1536/1563], Loss: 2.3041
+Epoch 2 completed in 22.51 seconds
+Train Accuracy: 10.28%, Test Accuracy: 10.27%
+Total training time so far: 46.28 seconds
+Epoch 2 completed in 23.46 seconds
+Train Accuracy: 10.63%, Test Accuracy: 11.95%
+Total training time so far: 46.98 seconds
+New best accuracy: 11.95%
+Epoch [3/10], Step [512/1563], Loss: 2.2824
+Epoch [3/10], Step [512/1563], Loss: 2.2912
+Epoch [3/10], Step [1024/1563], Loss: 2.2966
+Epoch [3/10], Step [1024/1563], Loss: 2.3016
+Epoch [3/10], Step [1536/1563], Loss: 2.2901
+Epoch [3/10], Step [1536/1563], Loss: 2.2987
+Epoch 3 completed in 22.69 seconds
+Train Accuracy: 11.65%, Test Accuracy: 14.10%
+Total training time so far: 68.97 seconds
+Epoch 3 completed in 23.15 seconds
+Train Accuracy: 13.52%, Test Accuracy: 14.07%
+Total training time so far: 70.14 seconds
+New best accuracy: 14.07%
+Epoch [4/10], Step [512/1563], Loss: 2.2576
+Epoch [4/10], Step [512/1563], Loss: 2.2820
+Epoch [4/10], Step [1024/1563], Loss: 2.2723
+Epoch [4/10], Step [1024/1563], Loss: 2.2748
+Epoch [4/10], Step [1536/1563], Loss: 2.2720
+Epoch [4/10], Step [1536/1563], Loss: 2.2879
+Epoch 4 completed in 23.41 seconds
+Train Accuracy: 14.93%, Test Accuracy: 16.74%
+Total training time so far: 92.38 seconds
+Epoch 4 completed in 23.66 seconds
+Train Accuracy: 14.86%, Test Accuracy: 16.66%
+Total training time so far: 93.79 seconds
+New best accuracy: 16.66%
+Epoch [5/10], Step [512/1563], Loss: 2.2053
+Epoch [5/10], Step [512/1563], Loss: 2.2539
+Epoch [5/10], Step [1024/1563], Loss: 2.2531
+Epoch [5/10], Step [1024/1563], Loss: 2.2115
+Epoch [5/10], Step [1536/1563], Loss: 2.2572
+Epoch [5/10], Step [1536/1563], Loss: 2.2518
+Epoch 5 completed in 23.06 seconds
+Train Accuracy: 19.50%, Test Accuracy: 22.60%
+Total training time so far: 115.44 seconds
+Epoch 5 completed in 23.29 seconds
+Train Accuracy: 19.45%, Test Accuracy: 22.62%
+Total training time so far: 117.08 seconds
+New best accuracy: 22.62%
+Epoch [6/10], Step [512/1563], Loss: 2.0967
+Epoch [6/10], Step [512/1563], Loss: 2.2129
+Epoch [6/10], Step [1024/1563], Loss: 2.2535
+Epoch [6/10], Step [1024/1563], Loss: 2.1046
+Epoch [6/10], Step [1536/1563], Loss: 2.2573
+Epoch [6/10], Step [1536/1563], Loss: 2.2264
+Epoch 6 completed in 22.41 seconds
+Train Accuracy: 22.97%, Test Accuracy: 25.25%
+Total training time so far: 137.85 seconds
+Epoch 6 completed in 22.52 seconds
+Train Accuracy: 23.08%, Test Accuracy: 25.56%
+Total training time so far: 139.61 seconds
+New best accuracy: 25.56%
+Epoch [7/10], Step [512/1563], Loss: 1.9567
+Epoch [7/10], Step [512/1563], Loss: 2.1900
+Epoch [7/10], Step [1024/1563], Loss: 2.2541
+Epoch [7/10], Step [1024/1563], Loss: 2.0776
+Epoch [7/10], Step [1536/1563], Loss: 2.1783
+Epoch [7/10], Step [1536/1563], Loss: 2.2711
+Epoch 7 completed in 22.13 seconds
+Train Accuracy: 26.18%, Test Accuracy: 28.45%
+Total training time so far: 159.98 seconds
+Epoch 7 completed in 22.61 seconds
+Train Accuracy: 26.22%, Test Accuracy: 28.31%
+Total training time so far: 162.21 seconds
+New best accuracy: 28.31%
+Epoch [8/10], Step [512/1563], Loss: 1.8609
+Epoch [8/10], Step [512/1563], Loss: 2.1936
+Epoch [8/10], Step [1024/1563], Loss: 2.2230
+Epoch [8/10], Step [1024/1563], Loss: 2.0565
+Epoch [8/10], Step [1536/1563], Loss: 2.0851
+Epoch [8/10], Step [1536/1563], Loss: 2.2819
+Epoch 8 completed in 22.94 seconds
+Train Accuracy: 28.75%, Test Accuracy: 29.77%
+Total training time so far: 182.92 seconds
+Epoch 8 completed in 23.31 seconds
+Train Accuracy: 28.67%, Test Accuracy: 30.18%
+Total training time so far: 185.52 seconds
+New best accuracy: 30.18%
+Epoch [9/10], Step [512/1563], Loss: 1.7993
+Epoch [9/10], Step [512/1563], Loss: 2.2139
+Epoch [9/10], Step [1024/1563], Loss: 2.1591
+Epoch [9/10], Step [1024/1563], Loss: 2.0327
+Epoch [9/10], Step [1536/1563], Loss: 2.0174
+Epoch [9/10], Step [1536/1563], Loss: 2.2549
+Epoch 9 completed in 22.78 seconds
+Train Accuracy: 30.54%, Test Accuracy: 31.56%
+Total training time so far: 205.70 seconds
+Epoch 9 completed in 23.39 seconds
+Train Accuracy: 30.39%, Test Accuracy: 31.76%
+Total training time so far: 208.91 seconds
+New best accuracy: 31.76%
+Epoch [10/10], Step [512/1563], Loss: 1.7523
+Epoch [10/10], Step [512/1563], Loss: 2.2253
+Epoch [10/10], Step [1024/1563], Loss: 2.0776
+Epoch [10/10], Step [1024/1563], Loss: 1.9956
+Epoch [10/10], Step [1536/1563], Loss: 1.9689
+Epoch [10/10], Step [1536/1563], Loss: 2.2145
+Epoch 10 completed in 24.06 seconds
+Train Accuracy: 31.93%, Test Accuracy: 32.83%
+Total training time so far: 229.75 seconds
+Finished Training
+Epoch 10 completed in 23.04 seconds
+Train Accuracy: 32.31%, Test Accuracy: 33.41%
+Total training time so far: 231.96 seconds
+New best accuracy: 33.41%
+Finished Training
+
+Metrics for each class:
+------------------------
+
+Class: plane
+Accuracy: 0.8876
+Precision: 0.4439
+Recall: 0.4910
+F1-score: 0.4663
+Specificity: 0.9317
+
+Class: car
+Accuracy: 0.8641
+Precision: 0.3554
+Recall: 0.4410
+F1-score: 0.3936
+Specificity: 0.9111
+
+Class: bird
+Accuracy: 0.8778
+Precision: 0.2279
+Recall: 0.0930
+F1-score: 0.1321
+Specificity: 0.9650
+
+Class: cat
+Accuracy: 0.8844
+Precision: 0.2254
+Recall: 0.0640
+F1-score: 0.0997
+Specificity: 0.9756
+
+Class: deer
+Accuracy: 0.8729
+Precision: 0.2652
+Recall: 0.1530
+F1-score: 0.1940
+Specificity: 0.9529
+
+Class: dog
+Accuracy: 0.8456
+Precision: 0.2610
+Recall: 0.2970
+F1-score: 0.2778
+Specificity: 0.9066
+
+Class: frog
+Accuracy: 0.8221
+Precision: 0.3153
+Recall: 0.6650
+F1-score: 0.4278
+Specificity: 0.8396
+
+Class: horse
+Accuracy: 0.8647
+Precision: 0.3364
+Recall: 0.3630
+F1-score: 0.3492
+Specificity: 0.9204
+
+Class: ship
+Accuracy: 0.8772
+Precision: 0.3887
+Recall: 0.3980
+F1-score: 0.3933
+Specificity: 0.9304
+
+Class: truck
+Accuracy: 0.8718
+Precision: 0.3636
+Recall: 0.3760
+F1-score: 0.3697
+Specificity: 0.9269
+
+Confusion Matrix:
+----------------
+Predicted →
+Actual ↓
+      plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+plane     491     79     28     14     21     30     33     46    192     66
+car        41    441      9     25      8     48     76     37    154    161
+bird      139     67     93     36    117    112    283     94     22     37
+cat        53     90     79     64     59    247    202    133     19     54
+deer       43     40     33     23    153    110    408    128     28     34
+dog        45     70     73     59     74    297    203    114     25     40
+frog       16     33     33     24     47     69    665     76      2     35
+horse      40     86     29     14     92    129    138    363     24     85
+ship      193    134      7     11      3     59     25     24    398    146
+truck      45    201     24     14      3     37     76     64    160    376

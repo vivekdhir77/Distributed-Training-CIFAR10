@@ -1,0 +1,142 @@
+No checkpoint found. Starting training from scratch
+Epoch [1/10], Step [512/782], Loss: 1.2680
+Epoch 1 completed in 81.13 seconds
+Train Accuracy: 56.80%, Test Accuracy: 67.12%
+Total training time so far: 81.13 seconds
+New best accuracy: 67.12%
+Epoch [2/10], Step [512/782], Loss: 0.9340
+Epoch 2 completed in 82.10 seconds
+Train Accuracy: 74.88%, Test Accuracy: 74.96%
+Total training time so far: 163.23 seconds
+New best accuracy: 74.96%
+Epoch [3/10], Step [512/782], Loss: 0.6409
+Epoch 3 completed in 81.89 seconds
+Train Accuracy: 82.46%, Test Accuracy: 76.91%
+Total training time so far: 245.12 seconds
+New best accuracy: 76.91%
+Epoch [4/10], Step [512/782], Loss: 0.4628
+Epoch 4 completed in 81.52 seconds
+Train Accuracy: 88.04%, Test Accuracy: 76.16%
+Total training time so far: 326.65 seconds
+Epoch [5/10], Step [512/782], Loss: 0.1563
+Epoch 5 completed in 81.82 seconds
+Train Accuracy: 92.48%, Test Accuracy: 79.12%
+Total training time so far: 408.47 seconds
+New best accuracy: 79.12%
+Epoch [6/10], Step [512/782], Loss: 0.0516
+Epoch 6 completed in 82.16 seconds
+Train Accuracy: 96.01%, Test Accuracy: 78.68%
+Total training time so far: 490.63 seconds
+Epoch [7/10], Step [512/782], Loss: 0.0473
+Epoch 7 completed in 82.20 seconds
+Train Accuracy: 98.43%, Test Accuracy: 83.21%
+Total training time so far: 572.83 seconds
+New best accuracy: 83.21%
+Epoch [8/10], Step [512/782], Loss: 0.0111
+Epoch 8 completed in 82.20 seconds
+Train Accuracy: 99.69%, Test Accuracy: 85.05%
+Total training time so far: 655.04 seconds
+New best accuracy: 85.05%
+Epoch [9/10], Step [512/782], Loss: 0.0033
+Epoch 9 completed in 82.50 seconds
+Train Accuracy: 99.98%, Test Accuracy: 85.47%
+Total training time so far: 737.54 seconds
+New best accuracy: 85.47%
+Epoch [10/10], Step [512/782], Loss: 0.0015
+Epoch 10 completed in 81.90 seconds
+Train Accuracy: 100.00%, Test Accuracy: 85.48%
+Total training time so far: 819.44 seconds
+New best accuracy: 85.48%
+Finished Training
+
+Metrics for each class:
+------------------------
+
+Class: plane
+Accuracy: 0.9723
+Precision: 0.8440
+Recall: 0.8870
+F1-score: 0.8649
+Specificity: 0.9818
+
+Class: car
+Accuracy: 0.9848
+Precision: 0.9109
+Recall: 0.9400
+F1-score: 0.9252
+Specificity: 0.9898
+
+Class: bird
+Accuracy: 0.9607
+Precision: 0.8253
+Recall: 0.7700
+F1-score: 0.7967
+Specificity: 0.9819
+
+Class: cat
+Accuracy: 0.9464
+Precision: 0.7363
+Recall: 0.7230
+F1-score: 0.7296
+Specificity: 0.9712
+
+Class: deer
+Accuracy: 0.9665
+Precision: 0.8182
+Recall: 0.8550
+F1-score: 0.8362
+Specificity: 0.9789
+
+Class: dog
+Accuracy: 0.9582
+Precision: 0.8102
+Recall: 0.7600
+F1-score: 0.7843
+Specificity: 0.9802
+
+Class: frog
+Accuracy: 0.9756
+Precision: 0.8649
+Recall: 0.8960
+F1-score: 0.8802
+Specificity: 0.9844
+
+Class: horse
+Accuracy: 0.9781
+Precision: 0.8989
+Recall: 0.8800
+F1-score: 0.8893
+Specificity: 0.9890
+
+Class: ship
+Accuracy: 0.9841
+Precision: 0.9159
+Recall: 0.9260
+F1-score: 0.9209
+Specificity: 0.9906
+
+Class: truck
+Accuracy: 0.9829
+Precision: 0.9174
+Recall: 0.9110
+F1-score: 0.9142
+Specificity: 0.9909
+Training plots saved to ./weights/accuracy_plot.png
+Best test accuracy: 85.48%
+Total training time: 819.44 seconds
+
+Confusion Matrix:
+----------------
+Predicted →
+Actual ↓
+      plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+plane     887     15     22      8      7      2      2      4     37     16
+car        11    940      1      2      2      1      2      0      9     32
+bird       48      2    770     33     58     30     39     10      5      5
+cat        17      5     46    723     29     93     46     25     10      6
+deer       13      3     30     30    855     15     25     26      3      0
+dog         6      2     28    123     37    760     14     24      5      1
+frog        8      4     20     29     23      7    896      5      5      3
+horse      15      1     11     24     31     29      3    880      1      5
+ship       31     14      2      5      1      1      6      0    926     14
+truck      15     46      3      5      2      0      3      5     10    911

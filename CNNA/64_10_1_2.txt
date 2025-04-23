@@ -1,0 +1,164 @@
+W0331 23:10:07.528000 3701 torch/distributed/run.py:792] 
+W0331 23:10:07.528000 3701 torch/distributed/run.py:792] *****************************************
+W0331 23:10:07.528000 3701 torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0331 23:10:07.528000 3701 torch/distributed/run.py:792] *****************************************
+No checkpoint found. Starting training from scratch
+No checkpoint found. Starting training from scratch
+Epoch 1 completed in 15.45 seconds
+Train Accuracy: 10.00%, Test Accuracy: 10.00%
+Total training time so far: 15.45 seconds
+New best accuracy: 10.00%
+Epoch 1 completed in 16.03 seconds
+Train Accuracy: 9.99%, Test Accuracy: 10.00%
+Total training time so far: 16.03 seconds
+Epoch 2 completed in 15.58 seconds
+Train Accuracy: 10.01%, Test Accuracy: 10.00%
+Total training time so far: 31.04 seconds
+Epoch 2 completed in 15.92 seconds
+Train Accuracy: 10.00%, Test Accuracy: 10.00%
+Total training time so far: 31.95 seconds
+Epoch 3 completed in 16.09 seconds
+Train Accuracy: 10.01%, Test Accuracy: 10.00%
+Total training time so far: 47.12 seconds
+Epoch 3 completed in 15.72 seconds
+Train Accuracy: 10.01%, Test Accuracy: 10.00%
+Total training time so far: 47.68 seconds
+Epoch 4 completed in 16.04 seconds
+Train Accuracy: 10.02%, Test Accuracy: 10.00%
+Total training time so far: 63.16 seconds
+Epoch 4 completed in 16.16 seconds
+Train Accuracy: 10.01%, Test Accuracy: 10.00%
+Total training time so far: 63.84 seconds
+Epoch 5 completed in 14.76 seconds
+Train Accuracy: 10.06%, Test Accuracy: 10.09%
+Total training time so far: 77.93 seconds
+New best accuracy: 10.09%
+Epoch 5 completed in 14.91 seconds
+Train Accuracy: 10.02%, Test Accuracy: 10.00%
+Total training time so far: 78.74 seconds
+Epoch 6 completed in 15.64 seconds
+Train Accuracy: 10.22%, Test Accuracy: 10.38%
+Total training time so far: 93.56 seconds
+New best accuracy: 10.38%
+Epoch 6 completed in 15.58 seconds
+Train Accuracy: 10.06%, Test Accuracy: 10.07%
+Total training time so far: 94.32 seconds
+Epoch 7 completed in 16.27 seconds
+Train Accuracy: 10.72%, Test Accuracy: 11.30%
+Total training time so far: 109.83 seconds
+New best accuracy: 11.30%
+Epoch 7 completed in 15.87 seconds
+Train Accuracy: 10.26%, Test Accuracy: 10.52%
+Total training time so far: 110.20 seconds
+Epoch 8 completed in 15.60 seconds
+Train Accuracy: 12.20%, Test Accuracy: 12.86%
+Total training time so far: 125.43 seconds
+New best accuracy: 12.86%
+Epoch 8 completed in 15.26 seconds
+Train Accuracy: 10.95%, Test Accuracy: 11.71%
+Total training time so far: 125.46 seconds
+Epoch 9 completed in 15.27 seconds
+Train Accuracy: 14.01%, Test Accuracy: 15.18%
+Total training time so far: 140.70 seconds
+New best accuracy: 15.18%
+Epoch 9 completed in 15.51 seconds
+Train Accuracy: 12.51%, Test Accuracy: 13.67%
+Total training time so far: 140.97 seconds
+Epoch 10 completed in 15.44 seconds
+Train Accuracy: 16.30%, Test Accuracy: 17.14%
+Total training time so far: 156.14 seconds
+New best accuracy: 17.14%
+Finished Training
+Epoch 10 completed in 15.71 seconds
+Train Accuracy: 14.76%, Test Accuracy: 15.92%
+Total training time so far: 156.68 seconds
+Finished Training
+
+Metrics for each class:
+------------------------
+
+Class: plane
+Accuracy: 0.4475
+Precision: 0.1323
+Recall: 0.8140
+F1-score: 0.2276
+Specificity: 0.4068
+
+Class: car
+Accuracy: 0.8288
+Precision: 0.2245
+Recall: 0.2900
+F1-score: 0.2531
+Specificity: 0.8887
+
+Class: bird
+Accuracy: 0.8846
+Precision: 0.1402
+Recall: 0.0300
+F1-score: 0.0494
+Specificity: 0.9796
+
+Class: cat
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+
+Class: deer
+Accuracy: 0.8918
+Precision: 0.3411
+Recall: 0.0880
+F1-score: 0.1399
+Specificity: 0.9811
+
+Class: dog
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+
+Class: frog
+Accuracy: 0.8416
+Precision: 0.2750
+Recall: 0.3570
+F1-score: 0.3107
+Specificity: 0.8954
+
+Class: horse
+Accuracy: 0.8874
+Precision: 0.2083
+Recall: 0.0450
+F1-score: 0.0740
+Specificity: 0.9810
+
+Class: ship
+Accuracy: 0.8962
+Precision: 0.1481
+Recall: 0.0080
+F1-score: 0.0152
+Specificity: 0.9949
+
+Class: truck
+Accuracy: 0.8649
+Precision: 0.1592
+Recall: 0.0820
+F1-score: 0.1083
+Specificity: 0.9519
+
+Confusion Matrix:
+----------------
+Predicted →
+Actual ↓
+      plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+plane     814    114      8      0      6      0     25      3      3     27
+car       498    290     17      0      1      0     88     15     10     81
+bird      661     54     30      0     44      0    151     15      2     43
+cat       646     45     33      0     18      0    159     33     10     56
+deer      541     37     26      0     88      0    260     22      5     21
+dog       686     44     34      0     19      0     95     41      8     73
+frog      480     27     15      0     51      0    357     29      5     36
+horse     602    122     34      0     25      0     95     45      2     75
+ship      747    195      9      0      3      0     15      2      8     21
+truck     478    364      8      0      3      0     53     11      1     82

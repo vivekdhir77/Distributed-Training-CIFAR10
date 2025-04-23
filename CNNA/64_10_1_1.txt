@@ -1,0 +1,141 @@
+No checkpoint found. Starting training from scratch
+Epoch [1/10], Step [512/782], Loss: 2.3155
+Epoch 1 completed in 25.85 seconds
+Train Accuracy: 10.26%, Test Accuracy: 10.19%
+Total training time so far: 25.85 seconds
+New best accuracy: 10.19%
+Epoch [2/10], Step [512/782], Loss: 2.3123
+Epoch 2 completed in 26.61 seconds
+Train Accuracy: 10.63%, Test Accuracy: 10.58%
+Total training time so far: 52.46 seconds
+New best accuracy: 10.58%
+Epoch [3/10], Step [512/782], Loss: 2.3098
+Epoch 3 completed in 25.58 seconds
+Train Accuracy: 10.88%, Test Accuracy: 10.78%
+Total training time so far: 78.04 seconds
+New best accuracy: 10.78%
+Epoch [4/10], Step [512/782], Loss: 2.3076
+Epoch 4 completed in 25.45 seconds
+Train Accuracy: 11.03%, Test Accuracy: 11.05%
+Total training time so far: 103.49 seconds
+New best accuracy: 11.05%
+Epoch [5/10], Step [512/782], Loss: 2.3058
+Epoch 5 completed in 27.44 seconds
+Train Accuracy: 11.16%, Test Accuracy: 11.25%
+Total training time so far: 130.93 seconds
+New best accuracy: 11.25%
+Epoch [6/10], Step [512/782], Loss: 2.3041
+Epoch 6 completed in 25.83 seconds
+Train Accuracy: 11.23%, Test Accuracy: 11.69%
+Total training time so far: 156.76 seconds
+New best accuracy: 11.69%
+Epoch [7/10], Step [512/782], Loss: 2.3025
+Epoch 7 completed in 25.98 seconds
+Train Accuracy: 11.73%, Test Accuracy: 12.51%
+Total training time so far: 182.73 seconds
+New best accuracy: 12.51%
+Epoch [8/10], Step [512/782], Loss: 2.3007
+Epoch 8 completed in 25.41 seconds
+Train Accuracy: 12.30%, Test Accuracy: 13.07%
+Total training time so far: 208.14 seconds
+New best accuracy: 13.07%
+Epoch [9/10], Step [512/782], Loss: 2.2986
+Epoch 9 completed in 26.11 seconds
+Train Accuracy: 12.75%, Test Accuracy: 13.65%
+Total training time so far: 234.26 seconds
+New best accuracy: 13.65%
+Epoch [10/10], Step [512/782], Loss: 2.2960
+Epoch 10 completed in 26.59 seconds
+Train Accuracy: 13.42%, Test Accuracy: 14.58%
+Total training time so far: 260.85 seconds
+New best accuracy: 14.58%
+Finished Training
+
+Metrics for each class:
+------------------------
+
+Class: plane
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+
+Class: car
+Accuracy: 0.8989
+Precision: 0.0769
+Recall: 0.0010
+F1-score: 0.0020
+Specificity: 0.9987
+
+Class: bird
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+
+Class: cat
+Accuracy: 0.8785
+Precision: 0.1955
+Recall: 0.0690
+F1-score: 0.1020
+Specificity: 0.9684
+
+Class: deer
+Accuracy: 0.8092
+Precision: 0.2320
+Recall: 0.3930
+F1-score: 0.2918
+Specificity: 0.8554
+
+Class: dog
+Accuracy: 0.8943
+Precision: 0.1724
+Recall: 0.0150
+F1-score: 0.0276
+Specificity: 0.9920
+
+Class: frog
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+
+Class: horse
+Accuracy: 0.3211
+Precision: 0.1137
+Recall: 0.8520
+F1-score: 0.2006
+Specificity: 0.2621
+
+Class: ship
+Accuracy: 0.8938
+Precision: 0.3551
+Recall: 0.0760
+F1-score: 0.1252
+Specificity: 0.9847
+
+Class: truck
+Accuracy: 0.8958
+Precision: 0.3562
+Recall: 0.0520
+F1-score: 0.0908
+Specificity: 0.9896
+
+Confusion Matrix:
+----------------
+Predicted →
+Actual ↓
+      plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+plane       0      2      0     24     64     11      0    829     58     12
+car         0      1      0     26     63     22      0    847     15     26
+bird        0      1      0     35    250      4      0    696     13      1
+cat         0      2      0     69    201      8      0    715      4      1
+deer        0      0      0     27    393      2      0    573      3      2
+dog         0      1      0     65    152     15      0    758      8      1
+frog        0      0      0     23    381      6      0    589      1      0
+horse       0      0      0     24    100      1      0    852     12     11
+ship        0      1      0     50     42     11      0    780     76     40
+truck       0      5      0     10     48      7      0    854     24     52

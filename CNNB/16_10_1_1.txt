@@ -1,0 +1,194 @@
+No checkpoint found. Starting training from scratch
+Epoch [1/10], Step [512/3125], Loss: 1.7864
+Epoch [1/10], Step [1024/3125], Loss: 1.0184
+Epoch [1/10], Step [1536/3125], Loss: 0.5599
+Epoch [1/10], Step [2048/3125], Loss: 1.3379
+Epoch [1/10], Step [2560/3125], Loss: 0.7604
+Epoch [1/10], Step [3072/3125], Loss: 0.7271
+Epoch 1 completed in 120.11 seconds
+Train Accuracy: 53.57%, Test Accuracy: 67.70%
+Total training time so far: 120.11 seconds
+New best accuracy: 67.70%
+Epoch [2/10], Step [512/3125], Loss: 1.1683
+Epoch [2/10], Step [1024/3125], Loss: 0.4282
+Epoch [2/10], Step [1536/3125], Loss: 0.3178
+Epoch [2/10], Step [2048/3125], Loss: 1.0975
+Epoch [2/10], Step [2560/3125], Loss: 0.5055
+Epoch [2/10], Step [3072/3125], Loss: 0.4116
+Epoch 2 completed in 117.50 seconds
+Train Accuracy: 72.68%, Test Accuracy: 73.85%
+Total training time so far: 237.61 seconds
+New best accuracy: 73.85%
+Epoch [3/10], Step [512/3125], Loss: 0.4993
+Epoch [3/10], Step [1024/3125], Loss: 0.1787
+Epoch [3/10], Step [1536/3125], Loss: 0.2289
+Epoch [3/10], Step [2048/3125], Loss: 0.9108
+Epoch [3/10], Step [2560/3125], Loss: 0.1749
+Epoch [3/10], Step [3072/3125], Loss: 0.3775
+Epoch 3 completed in 117.99 seconds
+Train Accuracy: 81.42%, Test Accuracy: 79.99%
+Total training time so far: 355.60 seconds
+New best accuracy: 79.99%
+Epoch [4/10], Step [512/3125], Loss: 0.2652
+Epoch [4/10], Step [1024/3125], Loss: 0.0888
+Epoch [4/10], Step [1536/3125], Loss: 0.2312
+Epoch [4/10], Step [2048/3125], Loss: 0.3696
+Epoch [4/10], Step [2560/3125], Loss: 0.0744
+Epoch [4/10], Step [3072/3125], Loss: 0.2814
+Epoch 4 completed in 118.44 seconds
+Train Accuracy: 88.29%, Test Accuracy: 80.66%
+Total training time so far: 474.05 seconds
+New best accuracy: 80.66%
+Epoch [5/10], Step [512/3125], Loss: 0.2175
+Epoch [5/10], Step [1024/3125], Loss: 0.0398
+Epoch [5/10], Step [1536/3125], Loss: 0.1400
+Epoch [5/10], Step [2048/3125], Loss: 0.3077
+Epoch [5/10], Step [2560/3125], Loss: 0.1299
+Epoch [5/10], Step [3072/3125], Loss: 0.1060
+Epoch 5 completed in 117.98 seconds
+Train Accuracy: 93.42%, Test Accuracy: 81.11%
+Total training time so far: 592.03 seconds
+New best accuracy: 81.11%
+Epoch [6/10], Step [512/3125], Loss: 0.0619
+Epoch [6/10], Step [1024/3125], Loss: 0.0113
+Epoch [6/10], Step [1536/3125], Loss: 0.1597
+Epoch [6/10], Step [2048/3125], Loss: 0.0180
+Epoch [6/10], Step [2560/3125], Loss: 0.0020
+Epoch [6/10], Step [3072/3125], Loss: 0.0345
+Epoch 6 completed in 119.39 seconds
+Train Accuracy: 96.70%, Test Accuracy: 82.40%
+Total training time so far: 711.42 seconds
+New best accuracy: 82.40%
+Epoch [7/10], Step [512/3125], Loss: 0.0177
+Epoch [7/10], Step [1024/3125], Loss: 0.0011
+Epoch [7/10], Step [1536/3125], Loss: 0.0051
+Epoch [7/10], Step [2048/3125], Loss: 0.0374
+Epoch [7/10], Step [2560/3125], Loss: 0.0002
+Epoch [7/10], Step [3072/3125], Loss: 0.0018
+Epoch 7 completed in 118.71 seconds
+Train Accuracy: 98.56%, Test Accuracy: 82.83%
+Total training time so far: 830.13 seconds
+New best accuracy: 82.83%
+Epoch [8/10], Step [512/3125], Loss: 0.0376
+Epoch [8/10], Step [1024/3125], Loss: 0.0144
+Epoch [8/10], Step [1536/3125], Loss: 0.0108
+Epoch [8/10], Step [2048/3125], Loss: 0.0032
+Epoch [8/10], Step [2560/3125], Loss: 0.0003
+Epoch [8/10], Step [3072/3125], Loss: 0.0217
+Epoch 8 completed in 118.16 seconds
+Train Accuracy: 99.48%, Test Accuracy: 84.55%
+Total training time so far: 948.29 seconds
+New best accuracy: 84.55%
+Epoch [9/10], Step [512/3125], Loss: 0.0011
+Epoch [9/10], Step [1024/3125], Loss: 0.0006
+Epoch [9/10], Step [1536/3125], Loss: 0.0003
+Epoch [9/10], Step [2048/3125], Loss: 0.0053
+Epoch [9/10], Step [2560/3125], Loss: 0.0003
+Epoch [9/10], Step [3072/3125], Loss: 0.0003
+Epoch 9 completed in 118.50 seconds
+Train Accuracy: 99.92%, Test Accuracy: 84.76%
+Total training time so far: 1066.79 seconds
+New best accuracy: 84.76%
+Epoch [10/10], Step [512/3125], Loss: 0.0004
+Epoch [10/10], Step [1024/3125], Loss: 0.0007
+Epoch [10/10], Step [1536/3125], Loss: 0.0001
+Epoch [10/10], Step [2048/3125], Loss: 0.0011
+Epoch [10/10], Step [2560/3125], Loss: 0.0001
+Epoch [10/10], Step [3072/3125], Loss: 0.0003
+Epoch 10 completed in 119.11 seconds
+Train Accuracy: 100.00%, Test Accuracy: 84.96%
+Total training time so far: 1185.90 seconds
+New best accuracy: 84.96%
+Finished Training
+
+Metrics for each class:
+------------------------
+
+Class: plane
+Accuracy: 0.9725
+Precision: 0.8404
+Recall: 0.8950
+F1-score: 0.8668
+Specificity: 0.9811
+
+Class: car
+Accuracy: 0.9869
+Precision: 0.9332
+Recall: 0.9360
+F1-score: 0.9346
+Specificity: 0.9926
+
+Class: bird
+Accuracy: 0.9596
+Precision: 0.8275
+Recall: 0.7530
+F1-score: 0.7885
+Specificity: 0.9826
+
+Class: cat
+Accuracy: 0.9417
+Precision: 0.7014
+Recall: 0.7260
+F1-score: 0.7135
+Specificity: 0.9657
+
+Class: deer
+Accuracy: 0.9623
+Precision: 0.8069
+Recall: 0.8190
+F1-score: 0.8129
+Specificity: 0.9782
+
+Class: dog
+Accuracy: 0.9573
+Precision: 0.8223
+Recall: 0.7310
+F1-score: 0.7740
+Specificity: 0.9824
+
+Class: frog
+Accuracy: 0.9746
+Precision: 0.8441
+Recall: 0.9150
+F1-score: 0.8781
+Specificity: 0.9812
+
+Class: horse
+Accuracy: 0.9784
+Precision: 0.8960
+Recall: 0.8870
+F1-score: 0.8915
+Specificity: 0.9886
+
+Class: ship
+Accuracy: 0.9840
+Precision: 0.9142
+Recall: 0.9270
+F1-score: 0.9206
+Specificity: 0.9903
+
+Class: truck
+Accuracy: 0.9819
+Precision: 0.9116
+Recall: 0.9070
+F1-score: 0.9093
+Specificity: 0.9902
+Training plots saved to ./weights/accuracy_plot.png
+Best test accuracy: 84.96%
+Total training time: 1185.90 seconds
+
+Confusion Matrix:
+----------------
+Predicted →
+Actual ↓
+      plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+plane     895      8     16     20      6      0      5      4     30     16
+car        11    936      2      1      1      0      2      0     10     37
+bird       53      1    753     38     54     28     52      9      8      4
+cat        16      3     35    726     42     93     53     19      8      5
+deer       16      3     41     43    819     14     32     29      2      1
+dog         4      3     24    148     38    731     15     31      3      3
+frog        7      2     21     24     16      4    915      6      4      1
+horse      12      2     12     23     35     15      4    887      2      8
+ship       34     11      5      4      1      1      3      1    927     13
+truck      17     34      1      8      3      3      3      4     20    907

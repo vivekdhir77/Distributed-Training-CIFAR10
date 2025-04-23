@@ -1,0 +1,148 @@
+2025-04-22 21:26:40,388 - Epoch 1 completed in 6.98 seconds
+2025-04-22 21:26:40,388 - Train Accuracy: 9.99%, Test Accuracy: 10.32%
+2025-04-22 21:26:40,388 - Total training time so far: 6.98 seconds
+2025-04-22 21:26:40,738 - Epoch 1 completed in 7.33 seconds
+2025-04-22 21:26:40,738 - Train Accuracy: 9.98%, Test Accuracy: 10.29%
+2025-04-22 21:26:40,738 - Total training time so far: 7.33 seconds
+2025-04-22 21:26:47,258 - Epoch 2 completed in 6.86 seconds
+2025-04-22 21:26:47,258 - Train Accuracy: 10.32%, Test Accuracy: 10.36%
+2025-04-22 21:26:47,258 - Total training time so far: 13.85 seconds
+2025-04-22 21:26:47,658 - Epoch 2 completed in 6.91 seconds
+2025-04-22 21:26:47,658 - Train Accuracy: 10.27%, Test Accuracy: 10.30%
+2025-04-22 21:26:47,658 - Total training time so far: 14.24 seconds
+2025-04-22 21:26:54,168 - Epoch 3 completed in 6.90 seconds
+2025-04-22 21:26:54,168 - Train Accuracy: 10.27%, Test Accuracy: 10.37%
+2025-04-22 21:26:54,168 - Total training time so far: 20.75 seconds
+2025-04-22 21:26:54,667 - Epoch 3 completed in 6.99 seconds
+2025-04-22 21:26:54,667 - Train Accuracy: 10.61%, Test Accuracy: 10.31%
+2025-04-22 21:26:54,668 - Total training time so far: 21.23 seconds
+2025-04-22 21:27:01,188 - Epoch 4 completed in 7.01 seconds
+2025-04-22 21:27:01,188 - Train Accuracy: 10.29%, Test Accuracy: 10.53%
+2025-04-22 21:27:01,188 - Total training time so far: 27.76 seconds
+2025-04-22 21:27:01,817 - Epoch 4 completed in 7.13 seconds
+2025-04-22 21:27:01,817 - Train Accuracy: 10.06%, Test Accuracy: 10.40%
+2025-04-22 21:27:01,817 - Total training time so far: 28.36 seconds
+2025-04-22 21:27:08,636 - Epoch 5 completed in 7.44 seconds
+2025-04-22 21:27:08,637 - Train Accuracy: 10.40%, Test Accuracy: 10.58%
+2025-04-22 21:27:08,637 - Total training time so far: 35.20 seconds
+2025-04-22 21:27:08,856 - Epoch 5 completed in 7.02 seconds
+2025-04-22 21:27:08,856 - Train Accuracy: 10.47%, Test Accuracy: 10.45%
+2025-04-22 21:27:08,857 - Total training time so far: 35.38 seconds
+2025-04-22 21:27:15,697 - Epoch 6 completed in 7.04 seconds
+2025-04-22 21:27:15,698 - Train Accuracy: 10.79%, Test Accuracy: 10.64%
+2025-04-22 21:27:15,698 - Total training time so far: 42.24 seconds
+2025-04-22 21:27:15,780 - Epoch 6 completed in 6.90 seconds
+2025-04-22 21:27:15,780 - Train Accuracy: 10.42%, Test Accuracy: 10.59%
+2025-04-22 21:27:15,780 - Total training time so far: 42.28 seconds
+2025-04-22 21:27:22,972 - Epoch 7 completed in 7.18 seconds
+2025-04-22 21:27:22,973 - Train Accuracy: 10.66%, Test Accuracy: 10.70%
+2025-04-22 21:27:22,973 - Total training time so far: 49.46 seconds
+2025-04-22 21:27:23,006 - Epoch 7 completed in 7.30 seconds
+2025-04-22 21:27:23,006 - Train Accuracy: 10.63%, Test Accuracy: 10.76%
+2025-04-22 21:27:23,006 - Total training time so far: 49.54 seconds
+2025-04-22 21:27:29,891 - Epoch 8 completed in 6.88 seconds
+2025-04-22 21:27:29,891 - Train Accuracy: 11.07%, Test Accuracy: 10.79%
+2025-04-22 21:27:29,891 - Total training time so far: 56.42 seconds
+2025-04-22 21:27:29,971 - Epoch 8 completed in 6.98 seconds
+2025-04-22 21:27:29,971 - Train Accuracy: 10.44%, Test Accuracy: 10.94%
+2025-04-22 21:27:29,971 - Total training time so far: 56.44 seconds
+2025-04-22 21:27:36,902 - Epoch 9 completed in 7.00 seconds
+2025-04-22 21:27:36,902 - Train Accuracy: 10.98%, Test Accuracy: 11.08%
+2025-04-22 21:27:36,902 - Total training time so far: 63.42 seconds
+2025-04-22 21:27:37,064 - Epoch 9 completed in 7.07 seconds
+2025-04-22 21:27:37,064 - Train Accuracy: 11.11%, Test Accuracy: 10.99%
+2025-04-22 21:27:37,064 - Total training time so far: 63.52 seconds
+2025-04-22 21:27:43,805 - Epoch 10 completed in 6.87 seconds
+2025-04-22 21:27:43,806 - Train Accuracy: 10.98%, Test Accuracy: 11.38%
+2025-04-22 21:27:43,806 - Total training time so far: 70.29 seconds
+2025-04-22 21:27:44,228 - Training completed in 70.41 seconds
+2025-04-22 21:27:44,281 - Epoch 10 completed in 7.21 seconds
+2025-04-22 21:27:44,281 - Train Accuracy: 11.06%, Test Accuracy: 11.14%
+2025-04-22 21:27:44,281 - Total training time so far: 70.72 seconds
+2025-04-22 21:27:44,733 - Training completed in 70.90 seconds
+2025-04-22 21:27:48,524 - 
+Class: plane
+Accuracy: 0.8989
+Precision: 0.2105
+Recall: 0.0040
+F1-score: 0.0079
+Specificity: 0.9983
+2025-04-22 21:27:48,525 - 
+Class: car
+Accuracy: 0.7654
+Precision: 0.0975
+Recall: 0.1630
+F1-score: 0.1220
+Specificity: 0.8323
+2025-04-22 21:27:48,525 - 
+Class: bird
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:27:48,525 - 
+Class: cat
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:27:48,526 - 
+Class: deer
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:27:48,526 - 
+Class: dog
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:27:48,526 - 
+Class: frog
+Accuracy: 0.2585
+Precision: 0.1140
+Recall: 0.9470
+F1-score: 0.2035
+Specificity: 0.1820
+2025-04-22 21:27:48,526 - 
+Class: horse
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:27:48,527 - 
+Class: ship
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:27:48,527 - 
+Class: truck
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:27:48,528 - 
+Confusion Matrix:
+2025-04-22 21:27:48,528 - ----------------
+2025-04-22 21:27:48,528 - Predicted ->
+2025-04-22 21:27:48,528 - Actual ↓
+2025-04-22 21:27:48,528 -       plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+2025-04-22 21:27:48,528 - plane       4    308      0      0      0      0    688      0      0      0
+2025-04-22 21:27:48,529 - car         0    163      0      0      0      0    837      0      0      0
+2025-04-22 21:27:48,529 - bird        6    111      0      0      0      0    883      0      0      0
+2025-04-22 21:27:48,529 - cat         3    116      0      0      0      0    881      0      0      0
+2025-04-22 21:27:48,529 - deer        0     67      0      0      0      0    933      0      0      0
+2025-04-22 21:27:48,529 - dog         2    206      0      0      0      0    792      0      0      0
+2025-04-22 21:27:48,529 - frog        1     52      0      0      0      0    947      0      0      0
+2025-04-22 21:27:48,529 - horse       3    110      0      0      0      0    887      0      0      0
+2025-04-22 21:27:48,529 - ship        0    385      0      0      0      0    615      0      0      0
+2025-04-22 21:27:48,530 - truck       0    154      0      0      0      0    846      0      0      0

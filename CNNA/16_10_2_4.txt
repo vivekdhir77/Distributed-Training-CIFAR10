@@ -1,0 +1,168 @@
+2025-04-22 21:31:16,556 - Epoch [1/10], Step [512/782], Loss: 2.3141
+2025-04-22 21:31:16,733 - Epoch [1/10], Step [512/782], Loss: 2.2561
+2025-04-22 21:31:21,822 - Epoch 1 completed in 9.01 seconds
+2025-04-22 21:31:21,822 - Train Accuracy: 9.56%, Test Accuracy: 9.63%
+2025-04-22 21:31:21,822 - Total training time so far: 9.01 seconds
+2025-04-22 21:31:22,348 - Epoch 1 completed in 9.53 seconds
+2025-04-22 21:31:22,349 - Train Accuracy: 9.10%, Test Accuracy: 9.59%
+2025-04-22 21:31:22,349 - Total training time so far: 9.53 seconds
+2025-04-22 21:31:25,220 - Epoch [2/10], Step [512/782], Loss: 2.3108
+2025-04-22 21:31:25,924 - Epoch [2/10], Step [512/782], Loss: 2.2973
+2025-04-22 21:31:30,303 - Epoch 2 completed in 8.47 seconds
+2025-04-22 21:31:30,304 - Train Accuracy: 9.57%, Test Accuracy: 10.11%
+2025-04-22 21:31:30,304 - Total training time so far: 17.48 seconds
+2025-04-22 21:31:31,803 - Epoch 2 completed in 9.43 seconds
+2025-04-22 21:31:31,803 - Train Accuracy: 10.14%, Test Accuracy: 10.40%
+2025-04-22 21:31:31,803 - Total training time so far: 18.96 seconds
+2025-04-22 21:31:33,766 - Epoch [3/10], Step [512/782], Loss: 2.3064
+2025-04-22 21:31:35,140 - Epoch [3/10], Step [512/782], Loss: 2.2842
+2025-04-22 21:31:38,914 - Epoch 3 completed in 8.60 seconds
+2025-04-22 21:31:38,915 - Train Accuracy: 11.29%, Test Accuracy: 12.70%
+2025-04-22 21:31:38,915 - Total training time so far: 26.08 seconds
+2025-04-22 21:31:40,427 - Epoch 3 completed in 8.60 seconds
+2025-04-22 21:31:40,428 - Train Accuracy: 11.34%, Test Accuracy: 12.90%
+2025-04-22 21:31:40,428 - Total training time so far: 27.56 seconds
+2025-04-22 21:31:42,548 - Epoch [4/10], Step [512/782], Loss: 2.3119
+2025-04-22 21:31:44,038 - Epoch [4/10], Step [512/782], Loss: 2.2808
+2025-04-22 21:31:47,674 - Epoch 4 completed in 8.75 seconds
+2025-04-22 21:31:47,674 - Train Accuracy: 14.41%, Test Accuracy: 15.57%
+2025-04-22 21:31:47,674 - Total training time so far: 34.83 seconds
+2025-04-22 21:31:49,333 - Epoch 4 completed in 8.89 seconds
+2025-04-22 21:31:49,334 - Train Accuracy: 13.44%, Test Accuracy: 15.22%
+2025-04-22 21:31:49,334 - Total training time so far: 36.46 seconds
+2025-04-22 21:31:51,191 - Epoch [5/10], Step [512/782], Loss: 2.2485
+2025-04-22 21:31:52,913 - Epoch [5/10], Step [512/782], Loss: 2.3064
+2025-04-22 21:31:56,167 - Epoch 5 completed in 8.48 seconds
+2025-04-22 21:31:56,167 - Train Accuracy: 15.01%, Test Accuracy: 16.12%
+2025-04-22 21:31:56,167 - Total training time so far: 43.31 seconds
+2025-04-22 21:31:58,051 - Epoch 5 completed in 8.70 seconds
+2025-04-22 21:31:58,051 - Train Accuracy: 16.31%, Test Accuracy: 17.13%
+2025-04-22 21:31:58,051 - Total training time so far: 45.16 seconds
+2025-04-22 21:31:59,825 - Epoch [6/10], Step [512/782], Loss: 2.2685
+2025-04-22 21:32:01,710 - Epoch [6/10], Step [512/782], Loss: 2.2369
+2025-04-22 21:32:04,837 - Epoch 6 completed in 8.66 seconds
+2025-04-22 21:32:04,837 - Train Accuracy: 16.12%, Test Accuracy: 16.57%
+2025-04-22 21:32:04,837 - Total training time so far: 51.97 seconds
+2025-04-22 21:32:06,850 - Epoch 6 completed in 8.78 seconds
+2025-04-22 21:32:06,850 - Train Accuracy: 16.98%, Test Accuracy: 18.14%
+2025-04-22 21:32:06,850 - Total training time so far: 53.94 seconds
+2025-04-22 21:32:08,389 - Epoch [7/10], Step [512/782], Loss: 2.2556
+2025-04-22 21:32:10,515 - Epoch [7/10], Step [512/782], Loss: 2.1694
+2025-04-22 21:32:13,607 - Epoch 7 completed in 8.75 seconds
+2025-04-22 21:32:13,607 - Train Accuracy: 17.41%, Test Accuracy: 18.84%
+2025-04-22 21:32:13,607 - Total training time so far: 60.73 seconds
+2025-04-22 21:32:16,302 - Epoch 7 completed in 9.44 seconds
+2025-04-22 21:32:16,302 - Train Accuracy: 18.21%, Test Accuracy: 18.60%
+2025-04-22 21:32:16,302 - Total training time so far: 63.38 seconds
+2025-04-22 21:32:17,405 - Epoch [8/10], Step [512/782], Loss: 2.1802
+2025-04-22 21:32:20,106 - Epoch [8/10], Step [512/782], Loss: 2.2541
+2025-04-22 21:32:22,360 - Epoch 8 completed in 8.73 seconds
+2025-04-22 21:32:22,361 - Train Accuracy: 19.42%, Test Accuracy: 20.99%
+2025-04-22 21:32:22,361 - Total training time so far: 69.46 seconds
+2025-04-22 21:32:25,373 - Epoch 8 completed in 9.04 seconds
+2025-04-22 21:32:25,373 - Train Accuracy: 19.33%, Test Accuracy: 19.71%
+2025-04-22 21:32:25,373 - Total training time so far: 72.42 seconds
+2025-04-22 21:32:25,914 - Epoch [9/10], Step [512/782], Loss: 2.2473
+2025-04-22 21:32:29,178 - Epoch [9/10], Step [512/782], Loss: 2.1902
+2025-04-22 21:32:30,974 - Epoch 9 completed in 8.60 seconds
+2025-04-22 21:32:30,974 - Train Accuracy: 21.13%, Test Accuracy: 23.32%
+2025-04-22 21:32:30,974 - Total training time so far: 78.06 seconds
+2025-04-22 21:32:34,420 - Epoch 9 completed in 9.04 seconds
+2025-04-22 21:32:34,420 - Train Accuracy: 20.81%, Test Accuracy: 23.08%
+2025-04-22 21:32:34,420 - Total training time so far: 81.46 seconds
+2025-04-22 21:32:34,485 - Epoch [10/10], Step [512/782], Loss: 2.3442
+2025-04-22 21:32:37,996 - Epoch [10/10], Step [512/782], Loss: 2.1920
+2025-04-22 21:32:39,840 - Epoch 10 completed in 8.86 seconds
+2025-04-22 21:32:39,840 - Train Accuracy: 23.30%, Test Accuracy: 24.92%
+2025-04-22 21:32:39,840 - Total training time so far: 86.92 seconds
+2025-04-22 21:32:40,389 - Training completed in 87.04 seconds
+2025-04-22 21:32:43,594 - Epoch 10 completed in 9.15 seconds
+2025-04-22 21:32:43,594 - Train Accuracy: 23.04%, Test Accuracy: 24.48%
+2025-04-22 21:32:43,594 - Total training time so far: 90.61 seconds
+2025-04-22 21:32:43,894 - Training completed in 90.79 seconds
+2025-04-22 21:32:47,930 - 
+Class: plane
+Accuracy: 0.8157
+Precision: 0.2757
+Recall: 0.5180
+F1-score: 0.3598
+Specificity: 0.8488
+2025-04-22 21:32:47,931 - 
+Class: car
+Accuracy: 0.8848
+Precision: 0.2532
+Recall: 0.0780
+F1-score: 0.1193
+Specificity: 0.9744
+2025-04-22 21:32:47,931 - 
+Class: bird
+Accuracy: 0.7675
+Precision: 0.1173
+Recall: 0.2030
+F1-score: 0.1487
+Specificity: 0.8302
+2025-04-22 21:32:47,931 - 
+Class: cat
+Accuracy: 0.8930
+Precision: 0.1818
+Recall: 0.0200
+F1-score: 0.0360
+Specificity: 0.9900
+2025-04-22 21:32:47,931 - 
+Class: deer
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:32:47,932 - 
+Class: dog
+Accuracy: 0.8402
+Precision: 0.2386
+Recall: 0.2730
+F1-score: 0.2547
+Specificity: 0.9032
+2025-04-22 21:32:47,932 - 
+Class: frog
+Accuracy: 0.7745
+Precision: 0.2448
+Recall: 0.6020
+F1-score: 0.3481
+Specificity: 0.7937
+2025-04-22 21:32:47,932 - 
+Class: horse
+Accuracy: 0.9000
+Precision: 0.0000
+Recall: 0.0000
+F1-score: 0.0000
+Specificity: 1.0000
+2025-04-22 21:32:47,932 - 
+Class: ship
+Accuracy: 0.8737
+Precision: 0.3402
+Recall: 0.2800
+F1-score: 0.3072
+Specificity: 0.9397
+2025-04-22 21:32:47,933 - 
+Class: truck
+Accuracy: 0.8402
+Precision: 0.3066
+Recall: 0.4740
+F1-score: 0.3723
+Specificity: 0.8809
+2025-04-22 21:32:47,933 - 
+Confusion Matrix:
+2025-04-22 21:32:47,934 - ----------------
+2025-04-22 21:32:47,934 - Predicted ->
+2025-04-22 21:32:47,934 - Actual ↓
+2025-04-22 21:32:47,934 -       plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+2025-04-22 21:32:47,934 - plane     518     12     77      4      0     79     58      0    151    101
+2025-04-22 21:32:47,934 - car       172     78    186     13      0    116    134      0    111    190
+2025-04-22 21:32:47,934 - bird      216     23    203      9      0    109    358      0     21     61
+2025-04-22 21:32:47,934 - cat       125     41    251     20      0    190    270      0     23     80
+2025-04-22 21:32:47,934 - deer       87      8    210     11      0     64    531      0     15     74
+2025-04-22 21:32:47,934 - dog       156     23    226     19      0    273    203      0     37     63
+2025-04-22 21:32:47,934 - frog       53     11    189     11      0     63    602      0      9     62
+2025-04-22 21:32:47,935 - horse     128     54    207     10      0    100    187      0     51    263
+2025-04-22 21:32:47,935 - ship      306     24     61      6      0    112     33      0    280    178
+2025-04-22 21:32:47,935 - truck     118     34    121      7      0     38     83      0    125    474

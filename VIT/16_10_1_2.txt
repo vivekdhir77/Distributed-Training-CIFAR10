@@ -1,0 +1,440 @@
+W0401 00:43:42.012000 9547 torch/distributed/run.py:792] 
+W0401 00:43:42.012000 9547 torch/distributed/run.py:792] *****************************************
+W0401 00:43:42.012000 9547 torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0401 00:43:42.012000 9547 torch/distributed/run.py:792] *****************************************
+Initializing distributed process group (rank: 1, local_rank: 1)
+Initializing distributed process group (rank: 0, local_rank: 0)
+GPU 0 - Using device: cuda:0 (distributed mode)
+GPU 1 - Using device: cuda:1 (distributed mode)
+Could not find model to preload: latest. Starting from scratch
+Could not find model to preload: latest. Starting from scratch
+Epoch [1/10], Batch [100/1563], Loss: 1.8034, Acc: 18.75%
+Epoch [1/10], Batch [100/1563], Loss: 2.2209, Acc: 37.50%
+Epoch [1/10], Batch [200/1563], Loss: 1.7667, Acc: 31.25%
+Epoch [1/10], Batch [200/1563], Loss: 1.8530, Acc: 31.25%
+Epoch [1/10], Batch [300/1563], Loss: 2.1870, Acc: 12.50%
+Epoch [1/10], Batch [300/1563], Loss: 2.2516, Acc: 18.75%
+Epoch [1/10], Batch [400/1563], Loss: 1.7852, Acc: 43.75%
+Epoch [1/10], Batch [400/1563], Loss: 1.6964, Acc: 43.75%
+Epoch [1/10], Batch [500/1563], Loss: 1.7389, Acc: 50.00%
+Epoch [1/10], Batch [500/1563], Loss: 1.9580, Acc: 25.00%
+Epoch [1/10], Batch [600/1563], Loss: 1.9012, Acc: 37.50%
+Epoch [1/10], Batch [600/1563], Loss: 1.9315, Acc: 25.00%
+Epoch [1/10], Batch [700/1563], Loss: 1.7307, Acc: 37.50%
+Epoch [1/10], Batch [700/1563], Loss: 1.9355, Acc: 18.75%
+Epoch [1/10], Batch [800/1563], Loss: 1.6347, Acc: 31.25%
+Epoch [1/10], Batch [800/1563], Loss: 1.9121, Acc: 37.50%
+Epoch [1/10], Batch [900/1563], Loss: 1.8024, Acc: 56.25%
+Epoch [1/10], Batch [900/1563], Loss: 1.9068, Acc: 18.75%
+Epoch [1/10], Batch [1000/1563], Loss: 2.0087, Acc: 31.25%
+Epoch [1/10], Batch [1000/1563], Loss: 1.3005, Acc: 50.00%
+Epoch [1/10], Batch [1100/1563], Loss: 1.4405, Acc: 50.00%
+Epoch [1/10], Batch [1100/1563], Loss: 1.8574, Acc: 43.75%
+Epoch [1/10], Batch [1200/1563], Loss: 1.7921, Acc: 50.00%
+Epoch [1/10], Batch [1200/1563], Loss: 1.4194, Acc: 62.50%
+Epoch [1/10], Batch [1300/1563], Loss: 1.5083, Acc: 43.75%
+Epoch [1/10], Batch [1300/1563], Loss: 1.1739, Acc: 43.75%
+Epoch [1/10], Batch [1400/1563], Loss: 1.5580, Acc: 50.00%
+Epoch [1/10], Batch [1400/1563], Loss: 1.9983, Acc: 25.00%
+Epoch [1/10], Batch [1500/1563], Loss: 1.7691, Acc: 31.25%
+Epoch [1/10], Batch [1500/1563], Loss: 1.8196, Acc: 37.50%
+Epoch [1/10], Loss: 1.8055, Accuracy: 32.30%, Time: 74.45sEpoch [1/10], Loss: 1.8074, Accuracy: 32.43%, Time: 74.45s
+
+Saved model checkpoint to weights/tmodel_00.pt
+Epoch [2/10], Batch [100/1563], Loss: 1.5877, Acc: 37.50%
+Epoch [2/10], Batch [100/1563], Loss: 1.3619, Acc: 75.00%
+Epoch [2/10], Batch [200/1563], Loss: 2.1154, Acc: 18.75%
+Epoch [2/10], Batch [200/1563], Loss: 1.2023, Acc: 56.25%
+Epoch [2/10], Batch [300/1563], Loss: 1.7052, Acc: 43.75%
+Epoch [2/10], Batch [300/1563], Loss: 0.8542, Acc: 75.00%
+Epoch [2/10], Batch [400/1563], Loss: 1.6368, Acc: 37.50%
+Epoch [2/10], Batch [400/1563], Loss: 1.6331, Acc: 37.50%
+Epoch [2/10], Batch [500/1563], Loss: 1.3660, Acc: 56.25%
+Epoch [2/10], Batch [500/1563], Loss: 1.7875, Acc: 43.75%
+Epoch [2/10], Batch [600/1563], Loss: 1.9438, Acc: 18.75%
+Epoch [2/10], Batch [600/1563], Loss: 1.5199, Acc: 56.25%
+Epoch [2/10], Batch [700/1563], Loss: 1.2322, Acc: 68.75%
+Epoch [2/10], Batch [700/1563], Loss: 1.7346, Acc: 37.50%
+Epoch [2/10], Batch [800/1563], Loss: 1.4881, Acc: 62.50%
+Epoch [2/10], Batch [800/1563], Loss: 1.5616, Acc: 50.00%
+Epoch [2/10], Batch [900/1563], Loss: 1.9029, Acc: 25.00%
+Epoch [2/10], Batch [900/1563], Loss: 1.5266, Acc: 50.00%
+Epoch [2/10], Batch [1000/1563], Loss: 1.4982, Acc: 31.25%Epoch [2/10], Batch [1000/1563], Loss: 1.1171, Acc: 75.00%
+
+Epoch [2/10], Batch [1100/1563], Loss: 1.0577, Acc: 56.25%
+Epoch [2/10], Batch [1100/1563], Loss: 1.6831, Acc: 37.50%
+Epoch [2/10], Batch [1200/1563], Loss: 1.2136, Acc: 37.50%
+Epoch [2/10], Batch [1200/1563], Loss: 1.8284, Acc: 43.75%
+Epoch [2/10], Batch [1300/1563], Loss: 1.0976, Acc: 62.50%
+Epoch [2/10], Batch [1300/1563], Loss: 1.1927, Acc: 62.50%
+Epoch [2/10], Batch [1400/1563], Loss: 1.6694, Acc: 31.25%
+Epoch [2/10], Batch [1400/1563], Loss: 1.7419, Acc: 37.50%
+Epoch [2/10], Batch [1500/1563], Loss: 1.6772, Acc: 18.75%
+Epoch [2/10], Batch [1500/1563], Loss: 1.5510, Acc: 56.25%
+Epoch [2/10], Loss: 1.4969, Accuracy: 45.53%, Time: 76.12s
+Epoch [2/10], Loss: 1.5061, Accuracy: 45.31%, Time: 76.36s
+Saved model checkpoint to weights/tmodel_01.pt
+Epoch [3/10], Batch [100/1563], Loss: 1.3709, Acc: 56.25%
+Epoch [3/10], Batch [100/1563], Loss: 1.3422, Acc: 50.00%
+Epoch [3/10], Batch [200/1563], Loss: 1.6191, Acc: 37.50%
+Epoch [3/10], Batch [200/1563], Loss: 1.5314, Acc: 50.00%
+Epoch [3/10], Batch [300/1563], Loss: 1.7489, Acc: 37.50%
+Epoch [3/10], Batch [300/1563], Loss: 1.2330, Acc: 56.25%
+Epoch [3/10], Batch [400/1563], Loss: 1.1781, Acc: 56.25%
+Epoch [3/10], Batch [400/1563], Loss: 1.1703, Acc: 56.25%
+Epoch [3/10], Batch [500/1563], Loss: 1.3405, Acc: 56.25%
+Epoch [3/10], Batch [500/1563], Loss: 1.4157, Acc: 37.50%
+Epoch [3/10], Batch [600/1563], Loss: 1.6572, Acc: 25.00%
+Epoch [3/10], Batch [600/1563], Loss: 1.3975, Acc: 56.25%
+Epoch [3/10], Batch [700/1563], Loss: 1.5381, Acc: 37.50%
+Epoch [3/10], Batch [700/1563], Loss: 1.0615, Acc: 68.75%
+Epoch [3/10], Batch [800/1563], Loss: 1.9091, Acc: 31.25%
+Epoch [3/10], Batch [800/1563], Loss: 1.3681, Acc: 50.00%
+Epoch [3/10], Batch [900/1563], Loss: 1.3214, Acc: 43.75%
+Epoch [3/10], Batch [900/1563], Loss: 1.4659, Acc: 37.50%
+Epoch [3/10], Batch [1000/1563], Loss: 1.3876, Acc: 43.75%
+Epoch [3/10], Batch [1000/1563], Loss: 1.0340, Acc: 68.75%
+Epoch [3/10], Batch [1100/1563], Loss: 1.6952, Acc: 31.25%
+Epoch [3/10], Batch [1100/1563], Loss: 1.2264, Acc: 56.25%
+Epoch [3/10], Batch [1200/1563], Loss: 1.5053, Acc: 25.00%
+Epoch [3/10], Batch [1200/1563], Loss: 1.8783, Acc: 37.50%
+Epoch [3/10], Batch [1300/1563], Loss: 1.4432, Acc: 43.75%
+Epoch [3/10], Batch [1300/1563], Loss: 1.2950, Acc: 62.50%
+Epoch [3/10], Batch [1400/1563], Loss: 1.6947, Acc: 37.50%
+Epoch [3/10], Batch [1400/1563], Loss: 1.2134, Acc: 62.50%
+Epoch [3/10], Batch [1500/1563], Loss: 0.9546, Acc: 56.25%
+Epoch [3/10], Batch [1500/1563], Loss: 1.3041, Acc: 37.50%
+Epoch [3/10], Loss: 1.3939, Accuracy: 49.28%, Time: 75.29s
+Epoch [3/10], Loss: 1.3849, Accuracy: 49.58%, Time: 75.68s
+Saved model checkpoint to weights/tmodel_02.pt
+Epoch [4/10], Batch [100/1563], Loss: 1.4298, Acc: 43.75%
+Epoch [4/10], Batch [100/1563], Loss: 1.9887, Acc: 25.00%
+Epoch [4/10], Batch [200/1563], Loss: 1.5239, Acc: 56.25%
+Epoch [4/10], Batch [200/1563], Loss: 1.4468, Acc: 31.25%
+Epoch [4/10], Batch [300/1563], Loss: 0.9758, Acc: 56.25%
+Epoch [4/10], Batch [300/1563], Loss: 1.6829, Acc: 50.00%
+Epoch [4/10], Batch [400/1563], Loss: 1.8438, Acc: 37.50%
+Epoch [4/10], Batch [400/1563], Loss: 1.2751, Acc: 68.75%
+Epoch [4/10], Batch [500/1563], Loss: 1.3562, Acc: 56.25%
+Epoch [4/10], Batch [500/1563], Loss: 1.3102, Acc: 56.25%
+Epoch [4/10], Batch [600/1563], Loss: 1.0803, Acc: 43.75%
+Epoch [4/10], Batch [600/1563], Loss: 1.0273, Acc: 50.00%
+Epoch [4/10], Batch [700/1563], Loss: 1.5014, Acc: 43.75%
+Epoch [4/10], Batch [700/1563], Loss: 1.5357, Acc: 43.75%
+Epoch [4/10], Batch [800/1563], Loss: 1.4512, Acc: 43.75%
+Epoch [4/10], Batch [800/1563], Loss: 1.6547, Acc: 25.00%
+Epoch [4/10], Batch [900/1563], Loss: 1.3018, Acc: 56.25%
+Epoch [4/10], Batch [900/1563], Loss: 1.2815, Acc: 50.00%
+Epoch [4/10], Batch [1000/1563], Loss: 1.7110, Acc: 37.50%
+Epoch [4/10], Batch [1000/1563], Loss: 1.0968, Acc: 56.25%
+Epoch [4/10], Batch [1100/1563], Loss: 1.2717, Acc: 50.00%
+Epoch [4/10], Batch [1100/1563], Loss: 1.6462, Acc: 56.25%
+Epoch [4/10], Batch [1200/1563], Loss: 1.4541, Acc: 43.75%
+Epoch [4/10], Batch [1200/1563], Loss: 1.6534, Acc: 43.75%
+Epoch [4/10], Batch [1300/1563], Loss: 1.2012, Acc: 62.50%
+Epoch [4/10], Batch [1300/1563], Loss: 1.5756, Acc: 50.00%
+Epoch [4/10], Batch [1400/1563], Loss: 1.3573, Acc: 68.75%
+Epoch [4/10], Batch [1400/1563], Loss: 1.0828, Acc: 68.75%
+Epoch [4/10], Batch [1500/1563], Loss: 0.9783, Acc: 68.75%
+Epoch [4/10], Batch [1500/1563], Loss: 1.0313, Acc: 68.75%
+Epoch [4/10], Loss: 1.3146, Accuracy: 52.08%, Time: 75.48s
+Epoch [4/10], Loss: 1.3096, Accuracy: 52.40%, Time: 75.19s
+Saved model checkpoint to weights/tmodel_03.pt
+Epoch [5/10], Batch [100/1563], Loss: 1.3588, Acc: 56.25%
+Epoch [5/10], Batch [100/1563], Loss: 1.5365, Acc: 31.25%
+Epoch [5/10], Batch [200/1563], Loss: 1.5016, Acc: 43.75%
+Epoch [5/10], Batch [200/1563], Loss: 1.3224, Acc: 31.25%
+Epoch [5/10], Batch [300/1563], Loss: 1.1457, Acc: 62.50%
+Epoch [5/10], Batch [300/1563], Loss: 1.1642, Acc: 50.00%
+Epoch [5/10], Batch [400/1563], Loss: 1.5543, Acc: 37.50%
+Epoch [5/10], Batch [400/1563], Loss: 1.2552, Acc: 37.50%
+Epoch [5/10], Batch [500/1563], Loss: 1.2362, Acc: 62.50%
+Epoch [5/10], Batch [500/1563], Loss: 1.2441, Acc: 62.50%
+Epoch [5/10], Batch [600/1563], Loss: 1.2646, Acc: 56.25%
+Epoch [5/10], Batch [600/1563], Loss: 1.3927, Acc: 43.75%
+Epoch [5/10], Batch [700/1563], Loss: 1.4028, Acc: 50.00%
+Epoch [5/10], Batch [700/1563], Loss: 1.1277, Acc: 68.75%
+Epoch [5/10], Batch [800/1563], Loss: 1.0604, Acc: 75.00%
+Epoch [5/10], Batch [800/1563], Loss: 1.3093, Acc: 56.25%
+Epoch [5/10], Batch [900/1563], Loss: 1.2492, Acc: 37.50%
+Epoch [5/10], Batch [900/1563], Loss: 1.1211, Acc: 56.25%
+Epoch [5/10], Batch [1000/1563], Loss: 1.0703, Acc: 50.00%
+Epoch [5/10], Batch [1000/1563], Loss: 0.7717, Acc: 68.75%
+Epoch [5/10], Batch [1100/1563], Loss: 1.0944, Acc: 50.00%
+Epoch [5/10], Batch [1100/1563], Loss: 1.2878, Acc: 62.50%
+Epoch [5/10], Batch [1200/1563], Loss: 1.1038, Acc: 43.75%
+Epoch [5/10], Batch [1200/1563], Loss: 0.7421, Acc: 68.75%
+Epoch [5/10], Batch [1300/1563], Loss: 1.3332, Acc: 43.75%
+Epoch [5/10], Batch [1300/1563], Loss: 1.3975, Acc: 62.50%
+Epoch [5/10], Batch [1400/1563], Loss: 1.2042, Acc: 56.25%
+Epoch [5/10], Batch [1400/1563], Loss: 1.1161, Acc: 62.50%
+Epoch [5/10], Batch [1500/1563], Loss: 0.7454, Acc: 68.75%
+Epoch [5/10], Batch [1500/1563], Loss: 1.3407, Acc: 56.25%
+Epoch [5/10], Loss: 1.2502, Accuracy: 54.69%, Time: 75.28s
+Epoch [5/10], Loss: 1.2639, Accuracy: 54.24%, Time: 75.58s
+Saved model checkpoint to weights/tmodel_04.pt
+Epoch [6/10], Batch [100/1563], Loss: 1.0667, Acc: 62.50%Epoch [6/10], Batch [100/1563], Loss: 1.1820, Acc: 62.50%
+
+Epoch [6/10], Batch [200/1563], Loss: 1.0964, Acc: 62.50%
+Epoch [6/10], Batch [200/1563], Loss: 1.4858, Acc: 50.00%
+Epoch [6/10], Batch [300/1563], Loss: 0.9105, Acc: 62.50%
+Epoch [6/10], Batch [300/1563], Loss: 1.0092, Acc: 68.75%
+Epoch [6/10], Batch [400/1563], Loss: 1.6275, Acc: 43.75%
+Epoch [6/10], Batch [400/1563], Loss: 1.7453, Acc: 37.50%
+Epoch [6/10], Batch [500/1563], Loss: 0.9557, Acc: 81.25%
+Epoch [6/10], Batch [500/1563], Loss: 1.2789, Acc: 62.50%
+Epoch [6/10], Batch [600/1563], Loss: 1.6834, Acc: 62.50%
+Epoch [6/10], Batch [600/1563], Loss: 0.9108, Acc: 68.75%
+Epoch [6/10], Batch [700/1563], Loss: 1.4475, Acc: 43.75%
+Epoch [6/10], Batch [700/1563], Loss: 1.4202, Acc: 56.25%
+Epoch [6/10], Batch [800/1563], Loss: 1.6842, Acc: 43.75%
+Epoch [6/10], Batch [800/1563], Loss: 1.5375, Acc: 25.00%
+Epoch [6/10], Batch [900/1563], Loss: 1.4706, Acc: 50.00%
+Epoch [6/10], Batch [900/1563], Loss: 1.3668, Acc: 56.25%
+Epoch [6/10], Batch [1000/1563], Loss: 2.0391, Acc: 12.50%
+Epoch [6/10], Batch [1000/1563], Loss: 1.0313, Acc: 62.50%
+Epoch [6/10], Batch [1100/1563], Loss: 0.9213, Acc: 68.75%
+Epoch [6/10], Batch [1100/1563], Loss: 1.0844, Acc: 50.00%
+Epoch [6/10], Batch [1200/1563], Loss: 1.1579, Acc: 56.25%
+Epoch [6/10], Batch [1200/1563], Loss: 1.4101, Acc: 43.75%
+Epoch [6/10], Batch [1300/1563], Loss: 1.5087, Acc: 31.25%
+Epoch [6/10], Batch [1300/1563], Loss: 1.2157, Acc: 43.75%
+Epoch [6/10], Batch [1400/1563], Loss: 1.4336, Acc: 56.25%
+Epoch [6/10], Batch [1400/1563], Loss: 1.2666, Acc: 37.50%
+Epoch [6/10], Batch [1500/1563], Loss: 1.3719, Acc: 43.75%
+Epoch [6/10], Batch [1500/1563], Loss: 1.1362, Acc: 56.25%
+Epoch [6/10], Loss: 1.2001, Accuracy: 56.66%, Time: 75.07s
+Epoch [6/10], Loss: 1.2087, Accuracy: 56.34%, Time: 75.41s
+Saved model checkpoint to weights/tmodel_05.pt
+Epoch [7/10], Batch [100/1563], Loss: 1.1286, Acc: 62.50%Epoch [7/10], Batch [100/1563], Loss: 1.4418, Acc: 43.75%
+
+Epoch [7/10], Batch [200/1563], Loss: 1.2864, Acc: 62.50%
+Epoch [7/10], Batch [200/1563], Loss: 1.5485, Acc: 50.00%
+Epoch [7/10], Batch [300/1563], Loss: 1.3468, Acc: 43.75%
+Epoch [7/10], Batch [300/1563], Loss: 1.4874, Acc: 50.00%
+Epoch [7/10], Batch [400/1563], Loss: 1.6290, Acc: 37.50%
+Epoch [7/10], Batch [400/1563], Loss: 1.5573, Acc: 50.00%
+Epoch [7/10], Batch [500/1563], Loss: 1.1795, Acc: 75.00%Epoch [7/10], Batch [500/1563], Loss: 0.7185, Acc: 81.25%
+
+Epoch [7/10], Batch [600/1563], Loss: 1.1248, Acc: 50.00%
+Epoch [7/10], Batch [600/1563], Loss: 1.1681, Acc: 62.50%
+Epoch [7/10], Batch [700/1563], Loss: 1.1936, Acc: 68.75%
+Epoch [7/10], Batch [700/1563], Loss: 1.3003, Acc: 56.25%
+Epoch [7/10], Batch [800/1563], Loss: 0.8155, Acc: 68.75%
+Epoch [7/10], Batch [800/1563], Loss: 0.6773, Acc: 75.00%
+Epoch [7/10], Batch [900/1563], Loss: 0.8464, Acc: 75.00%
+Epoch [7/10], Batch [900/1563], Loss: 1.3112, Acc: 56.25%
+Epoch [7/10], Batch [1000/1563], Loss: 1.2587, Acc: 50.00%
+Epoch [7/10], Batch [1000/1563], Loss: 0.9967, Acc: 68.75%
+Epoch [7/10], Batch [1100/1563], Loss: 1.1006, Acc: 62.50%
+Epoch [7/10], Batch [1100/1563], Loss: 0.9691, Acc: 62.50%
+Epoch [7/10], Batch [1200/1563], Loss: 1.0073, Acc: 68.75%
+Epoch [7/10], Batch [1200/1563], Loss: 1.3430, Acc: 50.00%
+Epoch [7/10], Batch [1300/1563], Loss: 1.5428, Acc: 43.75%
+Epoch [7/10], Batch [1300/1563], Loss: 1.3195, Acc: 62.50%
+Epoch [7/10], Batch [1400/1563], Loss: 0.8908, Acc: 50.00%
+Epoch [7/10], Batch [1400/1563], Loss: 1.0347, Acc: 62.50%
+Epoch [7/10], Batch [1500/1563], Loss: 1.0319, Acc: 62.50%
+Epoch [7/10], Batch [1500/1563], Loss: 1.2937, Acc: 43.75%
+Epoch [7/10], Loss: 1.1534, Accuracy: 58.44%, Time: 75.81s
+Epoch [7/10], Loss: 1.1530, Accuracy: 58.41%, Time: 75.46s
+Saved model checkpoint to weights/tmodel_06.pt
+Epoch [8/10], Batch [100/1563], Loss: 1.2897, Acc: 56.25%
+Epoch [8/10], Batch [100/1563], Loss: 1.7689, Acc: 25.00%
+Epoch [8/10], Batch [200/1563], Loss: 0.9251, Acc: 68.75%
+Epoch [8/10], Batch [200/1563], Loss: 1.2783, Acc: 56.25%
+Epoch [8/10], Batch [300/1563], Loss: 0.6728, Acc: 81.25%
+Epoch [8/10], Batch [300/1563], Loss: 1.1581, Acc: 62.50%
+Epoch [8/10], Batch [400/1563], Loss: 0.7493, Acc: 68.75%
+Epoch [8/10], Batch [400/1563], Loss: 0.9095, Acc: 68.75%
+Epoch [8/10], Batch [500/1563], Loss: 1.0900, Acc: 50.00%
+Epoch [8/10], Batch [500/1563], Loss: 1.0856, Acc: 81.25%
+Epoch [8/10], Batch [600/1563], Loss: 0.8882, Acc: 75.00%
+Epoch [8/10], Batch [600/1563], Loss: 0.8844, Acc: 68.75%
+Epoch [8/10], Batch [700/1563], Loss: 1.3986, Acc: 50.00%
+Epoch [8/10], Batch [700/1563], Loss: 0.9940, Acc: 62.50%
+Epoch [8/10], Batch [800/1563], Loss: 1.0232, Acc: 62.50%
+Epoch [8/10], Batch [800/1563], Loss: 1.3163, Acc: 62.50%
+Epoch [8/10], Batch [900/1563], Loss: 0.8251, Acc: 62.50%Epoch [8/10], Batch [900/1563], Loss: 0.9437, Acc: 56.25%
+
+Epoch [8/10], Batch [1000/1563], Loss: 1.6331, Acc: 43.75%
+Epoch [8/10], Batch [1000/1563], Loss: 1.3458, Acc: 50.00%
+Epoch [8/10], Batch [1100/1563], Loss: 1.7973, Acc: 43.75%
+Epoch [8/10], Batch [1100/1563], Loss: 0.9311, Acc: 68.75%
+Epoch [8/10], Batch [1200/1563], Loss: 1.7722, Acc: 25.00%
+Epoch [8/10], Batch [1200/1563], Loss: 0.7737, Acc: 75.00%
+Epoch [8/10], Batch [1300/1563], Loss: 1.5651, Acc: 43.75%
+Epoch [8/10], Batch [1300/1563], Loss: 0.9877, Acc: 68.75%
+Epoch [8/10], Batch [1400/1563], Loss: 0.8412, Acc: 75.00%
+Epoch [8/10], Batch [1400/1563], Loss: 0.9672, Acc: 56.25%
+Epoch [8/10], Batch [1500/1563], Loss: 1.1753, Acc: 50.00%
+Epoch [8/10], Batch [1500/1563], Loss: 1.1837, Acc: 56.25%
+Epoch [8/10], Loss: 1.1079, Accuracy: 60.50%, Time: 75.21s
+Epoch [8/10], Loss: 1.1186, Accuracy: 60.22%, Time: 75.58s
+Saved model checkpoint to weights/tmodel_07.pt
+Epoch [9/10], Batch [100/1563], Loss: 0.8373, Acc: 68.75%
+Epoch [9/10], Batch [100/1563], Loss: 0.8672, Acc: 75.00%
+Epoch [9/10], Batch [200/1563], Loss: 1.3094, Acc: 50.00%
+Epoch [9/10], Batch [200/1563], Loss: 1.1637, Acc: 43.75%
+Epoch [9/10], Batch [300/1563], Loss: 1.3965, Acc: 56.25%
+Epoch [9/10], Batch [300/1563], Loss: 1.2226, Acc: 56.25%
+Epoch [9/10], Batch [400/1563], Loss: 0.5631, Acc: 75.00%
+Epoch [9/10], Batch [400/1563], Loss: 1.1200, Acc: 50.00%
+Epoch [9/10], Batch [500/1563], Loss: 1.0394, Acc: 56.25%
+Epoch [9/10], Batch [500/1563], Loss: 1.2260, Acc: 62.50%
+Epoch [9/10], Batch [600/1563], Loss: 0.9975, Acc: 56.25%
+Epoch [9/10], Batch [600/1563], Loss: 1.3056, Acc: 50.00%
+Epoch [9/10], Batch [700/1563], Loss: 1.6469, Acc: 50.00%
+Epoch [9/10], Batch [700/1563], Loss: 1.3284, Acc: 56.25%
+Epoch [9/10], Batch [800/1563], Loss: 0.9931, Acc: 62.50%
+Epoch [9/10], Batch [800/1563], Loss: 1.1988, Acc: 50.00%
+Epoch [9/10], Batch [900/1563], Loss: 1.8574, Acc: 43.75%
+Epoch [9/10], Batch [900/1563], Loss: 1.2384, Acc: 56.25%
+Epoch [9/10], Batch [1000/1563], Loss: 1.0822, Acc: 62.50%
+Epoch [9/10], Batch [1000/1563], Loss: 0.8037, Acc: 68.75%
+Epoch [9/10], Batch [1100/1563], Loss: 0.7204, Acc: 81.25%
+Epoch [9/10], Batch [1100/1563], Loss: 1.1450, Acc: 43.75%
+Epoch [9/10], Batch [1200/1563], Loss: 1.1173, Acc: 50.00%
+Epoch [9/10], Batch [1200/1563], Loss: 0.8506, Acc: 62.50%
+Epoch [9/10], Batch [1300/1563], Loss: 0.6889, Acc: 93.75%
+Epoch [9/10], Batch [1300/1563], Loss: 1.1977, Acc: 62.50%
+Epoch [9/10], Batch [1400/1563], Loss: 0.7017, Acc: 68.75%
+Epoch [9/10], Batch [1400/1563], Loss: 1.0158, Acc: 62.50%
+Epoch [9/10], Batch [1500/1563], Loss: 1.3627, Acc: 50.00%
+Epoch [9/10], Batch [1500/1563], Loss: 1.4081, Acc: 50.00%
+Epoch [9/10], Loss: 1.0806, Accuracy: 61.09%, Time: 75.52s
+Epoch [9/10], Loss: 1.0839, Accuracy: 61.21%, Time: 75.18s
+Saved model checkpoint to weights/tmodel_08.pt
+Epoch [10/10], Batch [100/1563], Loss: 0.5206, Acc: 87.50%
+Epoch [10/10], Batch [100/1563], Loss: 0.7470, Acc: 68.75%
+Epoch [10/10], Batch [200/1563], Loss: 1.3299, Acc: 56.25%
+Epoch [10/10], Batch [200/1563], Loss: 1.3141, Acc: 56.25%
+Epoch [10/10], Batch [300/1563], Loss: 0.9307, Acc: 68.75%
+Epoch [10/10], Batch [300/1563], Loss: 1.5044, Acc: 37.50%
+Epoch [10/10], Batch [400/1563], Loss: 1.1078, Acc: 68.75%
+Epoch [10/10], Batch [400/1563], Loss: 1.0227, Acc: 56.25%
+Epoch [10/10], Batch [500/1563], Loss: 0.7900, Acc: 68.75%
+Epoch [10/10], Batch [500/1563], Loss: 1.0436, Acc: 68.75%
+Epoch [10/10], Batch [600/1563], Loss: 0.9368, Acc: 62.50%
+Epoch [10/10], Batch [600/1563], Loss: 0.6922, Acc: 75.00%
+Epoch [10/10], Batch [700/1563], Loss: 1.5803, Acc: 43.75%
+Epoch [10/10], Batch [700/1563], Loss: 1.2757, Acc: 43.75%
+Epoch [10/10], Batch [800/1563], Loss: 0.9763, Acc: 56.25%
+Epoch [10/10], Batch [800/1563], Loss: 1.0848, Acc: 56.25%
+Epoch [10/10], Batch [900/1563], Loss: 1.1349, Acc: 62.50%
+Epoch [10/10], Batch [900/1563], Loss: 1.0293, Acc: 68.75%
+Epoch [10/10], Batch [1000/1563], Loss: 0.7178, Acc: 68.75%
+Epoch [10/10], Batch [1000/1563], Loss: 0.6804, Acc: 68.75%
+Epoch [10/10], Batch [1100/1563], Loss: 1.1621, Acc: 68.75%
+Epoch [10/10], Batch [1100/1563], Loss: 0.7714, Acc: 75.00%
+Epoch [10/10], Batch [1200/1563], Loss: 1.0576, Acc: 68.75%
+Epoch [10/10], Batch [1200/1563], Loss: 1.5260, Acc: 50.00%
+Epoch [10/10], Batch [1300/1563], Loss: 0.7705, Acc: 75.00%
+Epoch [10/10], Batch [1300/1563], Loss: 1.1387, Acc: 56.25%
+Epoch [10/10], Batch [1400/1563], Loss: 0.8448, Acc: 75.00%Epoch [10/10], Batch [1400/1563], Loss: 0.5585, Acc: 81.25%
+
+Epoch [10/10], Batch [1500/1563], Loss: 1.5471, Acc: 31.25%
+Epoch [10/10], Batch [1500/1563], Loss: 1.3818, Acc: 56.25%
+Epoch [10/10], Loss: 1.0469, Accuracy: 62.42%, Time: 75.69s
+Epoch [10/10], Loss: 1.0583, Accuracy: 62.33%, Time: 75.30s
+Total training time: 756.31 seconds
+Total training time (excluding data loading and validation): 755.56 seconds
+Saved model checkpoint to weights/tmodel_09.pt
+Training completed. Total training time: 752.56 seconds
+
+Evaluating model on test set...
+Destroyed process group
+
+Metrics for each class:
+------------------------
+
+Class: plane
+Accuracy: 0.9324
+Precision: 0.6352
+Recall: 0.7610
+F1-score: 0.6924
+Specificity: 0.9514
+
+Class: car
+Accuracy: 0.9558
+Precision: 0.7569
+Recall: 0.8220
+F1-score: 0.7881
+Specificity: 0.9707
+
+Class: bird
+Accuracy: 0.9108
+Precision: 0.5529
+Recall: 0.5640
+F1-score: 0.5584
+Specificity: 0.9493
+
+Class: cat
+Accuracy: 0.9082
+Precision: 0.6265
+Recall: 0.2030
+F1-score: 0.3066
+Specificity: 0.9866
+
+Class: deer
+Accuracy: 0.9310
+Precision: 0.7129
+Recall: 0.5190
+F1-score: 0.6007
+Specificity: 0.9768
+
+Class: dog
+Accuracy: 0.8917
+Precision: 0.4733
+Recall: 0.7360
+F1-score: 0.5761
+Specificity: 0.9090
+
+Class: frog
+Accuracy: 0.9468
+Precision: 0.7067
+Recall: 0.8000
+F1-score: 0.7505
+Specificity: 0.9631
+
+Class: horse
+Accuracy: 0.9443
+Precision: 0.7253
+Recall: 0.7130
+F1-score: 0.7191
+Specificity: 0.9700
+
+Class: ship
+Accuracy: 0.9566
+Precision: 0.7918
+Recall: 0.7680
+F1-score: 0.7797
+Specificity: 0.9776
+
+Class: truck
+Accuracy: 0.9478
+Precision: 0.7380
+Recall: 0.7410
+F1-score: 0.7395
+Specificity: 0.9708
+
+Overall Accuracy: 0.6627
+
+Final Confusion Matrix:
+----------------------
+Predicted →
+Actual ↓
+      plane  car    bird   cat    deer   dog    frog   horse  ship   truck  
+plane     761     39     38      4      5     12     14     13     79     35
+car        35    822      5      4      0      7      4     12     15     96
+bird       96      8    564     18     61    105     77     47     13     11
+cat        28     10     98    203     38    432    118     20     26     27
+deer       33      7    149     21    519     78     66    107     15      5
+dog        21      8     63     47     27    736     35     43     11      9
+frog       13      7     59     13     27     48    800     15      6     12
+horse      34     13     32     12     45    115      7    713      6     23
+ship      123     38      3      2      2     13      5      1    768     45
+truck      54    134      9      0      4      9      6     12     31    741
+Total training time: 764.90 seconds
+Total training time (excluding data loading and validation): 752.56 seconds
+Destroyed process group
