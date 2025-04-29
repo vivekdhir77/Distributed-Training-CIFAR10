@@ -72,7 +72,9 @@
 
 
 10. Clone the repo.
- - `git clone https://github.com/vivekdhir77/Distibuted-Training`
+ - `git clone https://github.com/vivekdhir77/Distributed-Training-CIFAR10`
+ - navigate the the folder.
+ - `pip install -r requirements.txt`
  - navigate the architecture you want to run.
 
 
